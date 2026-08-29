@@ -1,0 +1,620 @@
+{
+  "workbookTitle": "3강 - 경기북과학고 기출문제 풀이",
+  "school": "경기북과학고",
+  "year": "",
+  "group": "생명/화학",
+  "subjects": [
+    "생명",
+    "화학"
+  ],
+  "problems": [
+    {
+      "problemNumber": "1",
+      "title": "인공 이자의 혈당 조절과 밀도 조절 장치",
+      "subject": "생명",
+      "unit": "항상성 · 밀도 · 피드백 조절",
+      "sourcePages": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "verificationStatus": "높은 확신",
+      "keywords": [
+        "혈당 조절",
+        "인슐린",
+        "인공 이자",
+        "밀도",
+        "부력",
+        "피드백 조절",
+        "온도와 밀도"
+      ],
+      "questionSummary": "인공 이자가 혈당을 측정하여 필요한 경우에만 인슐린을 주입하는 원리를, 액체의 밀도 변화에 따라 물체의 높이가 변하는 장치와 온도 변화에 따른 밀도 변화로 모형화하여 이해하는 문제이다. 핵심은 단순히 인슐린의 기능을 아는 것이 아니라, '측정 → 기준값과 비교 → 필요한 작용 수행 → 다시 측정'으로 이어지는 음성 피드백 조절 구조를 이해하는 것이다.",
+      "concepts": [
+        {
+          "name": "혈당량의 항상성과 인슐린",
+          "definition": "우리 몸은 혈당량을 일정한 범위로 유지하며, 혈당량이 높아지면 이자에서 분비되는 인슐린이 혈당량을 낮추는 방향으로 작용한다.",
+          "easyExplanation": "식사 후 혈액 속 포도당이 너무 많아지면 인슐린이 혈당을 다시 낮추는 역할을 한다.",
+          "why": "몸속 세포가 정상적으로 기능하기 위해서는 혈당량이 지나치게 높거나 낮아지지 않고 일정 범위에 유지되어야 하기 때문이다.",
+          "application": "그림 1에서는 혈당을 측정한 뒤 126mg/mL 이하이면 인슐린을 주사하지 않고, 그보다 높으면 인슐린을 주사한다.",
+          "caution": "인슐린은 혈당이 낮을 때 올리는 호르몬이 아니라 높은 혈당을 낮추는 방향으로 작용한다."
+        },
+        {
+          "name": "음성 피드백 조절",
+          "definition": "어떤 값이 기준에서 벗어났을 때 그 변화를 줄이는 방향으로 작용하여 다시 기준 범위로 되돌리는 조절 방식이다.",
+          "easyExplanation": "값이 너무 커지면 낮추고, 다시 정상에 가까워지면 그 작용을 멈추는 자동 조절 장치라고 생각하면 된다.",
+          "why": "조절 결과가 처음의 변화를 감소시키는 방향으로 작용하기 때문에 값이 한쪽으로 계속 커지는 것을 막을 수 있다.",
+          "application": "그림 1의 혈당 조절과 그림 2·3의 B 높이 조절은 모두 측정값을 기준값과 비교해 작동 여부를 결정하는 구조이다.",
+          "caution": "계속 작동하는 것이 아니라 측정값에 따라 작동과 정지가 반복되는 것이 핵심이다."
+        },
+        {
+          "name": "밀도와 뜨고 가라앉는 현상",
+          "definition": "물체의 평균 밀도가 액체보다 작으면 뜨고, 크면 가라앉는다. 떠 있는 물체는 물체의 무게와 부력이 평형을 이루는 위치에서 정지한다.",
+          "easyExplanation": "같은 물체라도 주변 액체의 밀도가 커지면 더 잘 뜨고, 액체의 밀도가 작아지면 더 깊이 잠긴다.",
+          "why": "액체의 밀도가 클수록 같은 부피가 잠겼을 때 물체가 받는 부력이 커지기 때문이다.",
+          "application": "액체 A를 넣어 혼합 용액의 밀도를 변화시키면 B가 뜨는 높이가 달라지고, 제어기는 이 높이를 이용해 펌프를 조절한다.",
+          "caution": "B의 높이 변화는 B의 질량이 변해서가 아니라 주변 액체의 밀도가 변하기 때문에 나타난다."
+        },
+        {
+          "name": "혼합물의 밀도",
+          "definition": "혼합 용액의 밀도는 전체 질량을 전체 부피로 나눈 값이며, 문제처럼 혼합 후 부피가 각 액체 부피의 합과 같다고 주어지면 두 액체의 밀도와 양에 따라 결정된다.",
+          "easyExplanation": "물보다 밀도가 큰 액체를 섞으면 혼합물의 밀도는 물보다 커지는 방향으로 변한다.",
+          "why": "같은 부피를 더했을 때 밀도가 큰 액체가 더 큰 질량을 추가하기 때문이다.",
+          "application": "A의 밀도가 증류수보다 커야 A를 넣었을 때 혼합 용액의 밀도가 증가하여 B가 위로 올라갈 수 있다.",
+          "caution": "A를 넣으면 무조건 밀도가 커진다고 가정하면 안 되고 A와 증류수의 밀도를 비교해야 한다."
+        },
+        {
+          "name": "온도와 물질의 밀도",
+          "definition": "일반적으로 같은 물질의 질량이 일정할 때 온도가 변하여 부피가 변하면 밀도도 변한다. 특히 기체는 액체보다 온도 변화에 따른 부피와 밀도 변화가 크게 나타난다.",
+          "easyExplanation": "기체는 따뜻해지면 많이 팽창하고 차가워지면 많이 수축한다. 물은 같은 온도 변화에서도 기체보다 부피 변화가 훨씬 작다.",
+          "why": "기체 입자 사이의 거리가 액체보다 훨씬 크고 온도 변화에 따라 입자 사이 거리의 변화도 크게 나타나기 때문이다.",
+          "application": "풍선을 가라앉히려면 냉각하여 기체가 수축하고 풍선 전체의 평균 밀도가 증가하도록 해야 한다.",
+          "caution": "물과 기체 모두 온도에 따라 밀도가 변한다는 점을 고려해야 하며, 핵심은 기체 쪽 변화가 훨씬 크다는 것이다."
+        }
+      ],
+      "clues": [
+        {
+          "clue": "혈당 ≤ 126mg/mL이면 인슐린을 주사하지 않고, 아니면 인슐린을 주사",
+          "concept": "음성 피드백과 기준값",
+          "reason": "기준보다 혈당이 높을 때만 혈당을 낮추는 작용을 시작한다."
+        },
+        {
+          "clue": "펌프는 A를 눈금 실린더로 이동",
+          "concept": "인슐린 투입의 모형",
+          "reason": "인공 이자가 필요할 때 인슐린을 주입하는 과정에 대응한다."
+        },
+        {
+          "clue": "제어기가 B의 높이를 주기적으로 측정",
+          "concept": "혈당 측정과 피드백",
+          "reason": "현재 상태를 반복적으로 측정하여 기준값과 비교한다."
+        },
+        {
+          "clue": "A는 쉽게 증발하고 증류수의 증발은 무시",
+          "concept": "A의 효과가 시간이 지나면 감소",
+          "reason": "펌프가 멈추면 A가 제거되어 혼합 용액의 밀도가 다시 원래 방향으로 변화할 수 있다."
+        },
+        {
+          "clue": "B의 일부가 증류수 위에 뜸",
+          "concept": "B의 밀도 < 증류수의 밀도",
+          "reason": "물체가 액체 표면에 일부 떠 있기 위해서는 물체의 평균 밀도가 액체보다 작아야 한다."
+        }
+      ],
+      "conceptFlows": [
+        {
+          "title": "인공 이자의 혈당 조절",
+          "steps": [
+            "혈당 측정",
+            "기준값과 비교",
+            "혈당이 높음",
+            "인슐린 주입",
+            "혈당 감소",
+            "다시 측정"
+          ]
+        },
+        {
+          "title": "밀도 장치의 피드백 조절",
+          "steps": [
+            "B 높이 측정",
+            "B 높이 < h",
+            "펌프 작동",
+            "밀도 큰 A 유입",
+            "혼합 용액 밀도 증가",
+            "B 상승",
+            "B 높이 ≥ h",
+            "펌프 정지",
+            "A 증발",
+            "혼합 용액 밀도 감소",
+            "B 하강"
+          ]
+        },
+        {
+          "title": "온도로 풍선을 가라앉히기",
+          "steps": [
+            "냉각",
+            "기체 수축",
+            "기체 및 풍선 평균 밀도 증가",
+            "증류수의 밀도도 변하지만 변화는 상대적으로 작음",
+            "풍선이 상대적으로 더 무거워짐",
+            "아래로 이동"
+          ]
+        }
+      ],
+      "subQuestions": [
+        {
+          "label": "1-1",
+          "question": "[그림 2]에서 인슐린과 이자에 대응하는 것을 각각 설명하시오.",
+          "solutionSteps": [
+            "그림 1에서 인슐린은 혈당이 높을 때 몸에 투입되는 조절 물질이다.",
+            "그림 2에서는 필요할 때 펌프를 통해 눈금 실린더로 이동하는 물질이 액체 A이다.",
+            "따라서 액체 A는 인슐린에 대응한다.",
+            "이자는 혈당 상태에 따라 인슐린의 분비 여부를 조절하는 기관이다.",
+            "그림 2에서는 제어기가 B의 높이를 측정하여 펌프의 작동 여부를 결정하고 펌프가 A를 내보내므로, 제어기와 펌프로 이루어진 조절 시스템이 이자의 기능에 대응한다."
+          ],
+          "shortAnswer": "인슐린 → 액체 A / 이자 → B의 높이에 따라 A의 투입을 조절하는 제어기·펌프 시스템",
+          "finalAnswer": "인슐린에 대응하는 것은 액체 A이다. 혈당이 높을 때 인슐린이 주입되듯이, 장치에서는 필요한 경우 펌프를 통해 A가 눈금 실린더로 공급된다. 이자에 대응하는 것은 B의 높이를 측정하여 A의 공급 여부를 결정하는 제어기와 펌프의 조절 시스템이다."
+        },
+        {
+          "label": "1-2",
+          "question": "[그림 3]의 ㉠과 ㉡에서 수행해야 할 작업을 각각 설명하시오.",
+          "solutionSteps": [
+            "그림 3은 B의 높이를 측정한 뒤 'B의 높이 < h'인지 판단한다.",
+            "B의 높이가 h보다 낮으면 다시 높이를 올리는 방향으로 작용해야 안정적인 피드백이 된다.",
+            "A의 밀도가 증류수보다 크다면 A를 넣을수록 혼합 용액의 밀도가 증가하고 B는 더 위로 뜬다.",
+            "따라서 'B의 높이 < h'인 경우인 ㉡에서는 펌프를 작동시켜 A를 넣어야 한다.",
+            "B의 높이가 h 이상이면 A를 더 넣을 필요가 없으므로 ㉠에서는 펌프를 멈춘다.",
+            "펌프가 멈춘 동안 A가 쉽게 증발하여 혼합 용액의 밀도는 다시 감소하고 B의 높이가 낮아질 수 있다."
+          ],
+          "shortAnswer": "㉠ 펌프를 멈춘다. / ㉡ 펌프를 작동시켜 A를 넣는다.",
+          "finalAnswer": "B의 높이가 h보다 낮지 않으면 ㉠에서 펌프를 멈춘다. 반대로 B의 높이가 h보다 낮으면 ㉡에서 펌프를 작동시켜 A를 눈금 실린더로 공급한다. 이후 B가 다시 기준 높이 이상으로 올라오면 펌프가 멈추는 방식으로 조절된다."
+        },
+        {
+          "label": "1-3",
+          "question": "혼합 용액의 부피가 혼합 전 두 액체 부피의 합과 같을 때, 장치가 그림 3과 같이 작동하기 위한 A와 B의 적절한 조건을 각각 제시하고 이유를 설명하시오.",
+          "solutionSteps": [
+            "B의 일부가 처음부터 증류수 위에 떠 있어야 하므로 B의 평균 밀도는 증류수의 밀도보다 작아야 한다.",
+            "B의 높이가 h보다 낮을 때 펌프를 작동하면 B가 다시 올라와야 한다.",
+            "따라서 A를 넣었을 때 혼합 용액의 밀도가 증가해야 한다.",
+            "혼합 후 부피가 두 액체 부피의 합과 같으므로 A의 밀도가 증류수보다 크면 A가 들어갈수록 혼합 용액의 평균 밀도가 증가한다.",
+            "혼합 용액의 밀도가 증가하면 B가 같은 무게를 지탱하는 데 필요한 잠긴 부피가 줄어들어 더 위로 뜬다.",
+            "펌프가 멈추면 A가 증발하면서 혼합 용액의 밀도가 다시 감소하여 B가 내려가므로 반복적인 피드백 조절이 가능하다."
+          ],
+          "shortAnswer": "A의 밀도 > 증류수의 밀도, B의 밀도 < 증류수의 밀도",
+          "finalAnswer": "A의 밀도는 증류수의 밀도보다 커야 하고, B의 평균 밀도는 증류수의 밀도보다 작아야 한다. B가 증류수에 일부 떠 있으려면 B의 밀도가 증류수보다 작아야 한다. 또한 B의 높이가 낮아 펌프가 작동했을 때 A가 들어오면서 혼합 용액의 밀도가 증가해야 B가 위로 올라오므로 A의 밀도는 증류수보다 커야 한다. 이후 A가 증발하면 혼합 용액의 밀도가 감소하여 B가 다시 내려가므로 피드백 조절이 가능하다."
+        },
+        {
+          "label": "1-4",
+          "question": "풍선이 가라앉아 기준점을 지나기 위해 필요한 것이 가열과 냉각 중 무엇인지 선택하고, 증류수와 기체의 밀도 변화와 관련하여 설명하시오.",
+          "solutionSteps": [
+            "풍선이 아래로 이동하려면 주변 증류수에 비해 풍선의 평균 밀도가 커지는 방향으로 변화해야 한다.",
+            "냉각하면 풍선 속 기체의 부피가 감소하고, 기체의 질량은 거의 일정하므로 기체의 밀도가 증가한다.",
+            "풍선과 추의 전체 질량은 변하지 않지만 풍선의 부피가 감소하므로 풍선 전체의 평균 밀도도 증가한다.",
+            "증류수의 밀도 역시 온도 변화에 따라 변하지만 액체의 부피 변화는 기체보다 훨씬 작다.",
+            "따라서 냉각했을 때 풍선 쪽의 밀도 증가 효과가 상대적으로 크게 나타나 풍선이 더 아래로 이동할 수 있다."
+          ],
+          "shortAnswer": "ⓑ 냉각",
+          "finalAnswer": "풍선을 가라앉히기 위해서는 ⓑ 냉각이 필요하다. 냉각하면 풍선 속 기체가 수축하여 기체의 밀도와 풍선 전체의 평균 밀도가 증가한다. 증류수도 온도에 따라 밀도가 변하지만 기체에 비해 밀도 변화가 작으므로 풍선이 증류수에 비해 상대적으로 더 조밀해져 아래로 이동하여 기준점을 지날 수 있다."
+        }
+      ],
+      "commonMistakes": [
+        "A를 넣으면 무조건 B가 위로 올라간다고 생각하고 A와 물의 밀도를 비교하지 않는 것",
+        "B의 일부가 증류수에 떠 있다는 조건에서 B의 밀도가 물보다 작다는 사실을 놓치는 것",
+        "㉠과 ㉡의 펌프 작동 여부를 반대로 쓰는 것",
+        "이자에 대응하는 것을 단순히 액체 A라고 생각하는 것. A는 인슐린에 대응한다.",
+        "가열하면 물체가 가라앉는다고 막연히 판단하고 기체와 물의 밀도 변화를 비교하지 않는 것",
+        "냉각 시 증류수의 밀도 변화는 전혀 없다고 하는 것"
+      ],
+      "teacherGuide": {
+        "opening": "처음부터 밀도 계산으로 들어가지 말고 그림 1의 인공 이자를 '측정 → 비교 → 작동 → 다시 측정'이라는 자동조절 장치로 먼저 이해시킨다.",
+        "teachingOrder": [
+          "그림 1의 인공 이자를 측정 → 기준 비교 → 인슐린 주입 여부 결정 → 다시 측정의 구조로 정리한다.",
+          "그림 2에서 인슐린에 해당하는 것은 실제로 투입되는 액체 A임을 대응시킨다.",
+          "이자에 해당하는 것은 A 자체가 아니라 B 높이를 측정하고 펌프를 조절하는 제어기·펌프 시스템임을 잡아준다.",
+          "B가 떠 있는 높이는 B의 질량 변화가 아니라 주변 혼합 용액의 밀도 변화로 달라진다는 점을 설명한다.",
+          "B 높이<h이면 A를 넣어 용액 밀도를 키우고, B가 기준 이상이면 펌프를 멈추는 피드백으로 마무리한다.",
+          "마지막 풍선 문항은 기체가 액체보다 온도에 따른 부피 변화가 크다는 비교로 냉각을 선택하게 한다."
+        ],
+        "questionsToAsk": [
+          "Q. 인슐린은 혈당이 높을 때 어떤 방향으로 작용할까? / A. 혈당을 낮추는 방향으로 작용한다.",
+          "Q. 장치에서 인슐린처럼 필요할 때 투입되는 것은 무엇일까? / A. 액체 A이다.",
+          "Q. 이자는 A일까, A를 조절하는 장치일까? / A. A를 조절하는 제어기·펌프 시스템이다.",
+          "Q. 용액의 밀도가 커지면 같은 B는 더 뜰까, 더 가라앉을까? / A. 더 위로 뜬다.",
+          "Q. 풍선을 가라앉히려면 가열과 냉각 중 무엇이 유리할까? / A. 냉각이다. 기체가 수축해 풍선 평균 밀도가 커진다."
+        ],
+        "boardPoints": [
+          "혈당↑ → 인슐린 → 혈당↓",
+          "인슐린 ↔ 액체 A",
+          "이자 ↔ 제어기 + 펌프",
+          "B 높이<h → 펌프 ON → A 유입 → 용액 밀도↑ → B 상승",
+          "A 밀도 > 물, B 밀도 < 물",
+          "냉각 → 기체 수축 → 풍선 평균 밀도↑ → 하강"
+        ],
+        "emphasis": [
+          "이 문제의 핵심은 생명과학의 항상성과 물리·화학의 밀도를 같은 피드백 구조로 연결하는 것이다.",
+          "문제에서 주지 않은 구체적인 액체 종류나 수치를 임의로 가정하지 않는다."
+        ],
+        "visualNotes": [
+          "왼쪽은 실제 혈당 조절, 오른쪽은 실험 장치 조절로 나누어 대응 관계를 보여준다.",
+          "칠판에는 B 높이<h → 펌프 ON → A 유입 → 용액 밀도 증가 → B 상승만 크게 적는다."
+        ],
+        "visuals": [
+          {
+            "id": "teacher-visual-인공 이자와 밀도 장치 대응 흐름.svg",
+            "name": "인공 이자와 밀도 장치 대응 흐름.svg",
+            "type": "image/svg+xml",
+            "dataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgwIiBoZWlnaHQ9Ijg2MCIgdmlld0JveD0iMCAwIDEyODAgODYwIj4KICAKICA8ZGVmcz4KICAgIDxtYXJrZXIgaWQ9ImFycm93IiBtYXJrZXJXaWR0aD0iMTAiIG1hcmtlckhlaWdodD0iMTAiIHJlZlg9IjgiIHJlZlk9IjMiIG9yaWVudD0iYXV0byI+CiAgICAgIDxwYXRoIGQ9Ik0wLDAgTDAsNiBMOCwzIHoiIGZpbGw9IiMyNTM1MmYiLz4KICAgIDwvbWFya2VyPgogICAgPG1hcmtlciBpZD0iYmx1ZUFycm93IiBtYXJrZXJXaWR0aD0iMTAiIG1hcmtlckhlaWdodD0iMTAiIHJlZlg9IjgiIHJlZlk9IjMiIG9yaWVudD0iYXV0byI+CiAgICAgIDxwYXRoIGQ9Ik0wLDAgTDAsNiBMOCwzIHoiIGZpbGw9IiMzNTY4YTkiLz4KICAgIDwvbWFya2VyPgogICAgPG1hcmtlciBpZD0icmVkQXJyb3ciIG1hcmtlcldpZHRoPSIxMCIgbWFya2VySGVpZ2h0PSIxMCIgcmVmWD0iOCIgcmVmWT0iMyIgb3JpZW50PSJhdXRvIj4KICAgICAgPHBhdGggZD0iTTAsMCBMMCw2IEw4LDMgeiIgZmlsbD0iI2I3NGIzZiIvPgogICAgPC9tYXJrZXI+CiAgICA8c3R5bGU+CiAgICAgIC50aXRsZXtmb250OjgwMCAzMHB4IEFyaWFsLCdNYWxndW4gR290aGljJyxzYW5zLXNlcmlmO2ZpbGw6IzFmMmEyN30KICAgICAgLnN1Yntmb250OjYwMCAxN3B4IEFyaWFsLCdNYWxndW4gR290aGljJyxzYW5zLXNlcmlmO2ZpbGw6IzQwNTY0Yn0KICAgICAgLmxhYmVse2ZvbnQ6ODAwIDIwcHggQXJpYWwsJ01hbGd1biBHb3RoaWMnLHNhbnMtc2VyaWY7ZmlsbDojMWYyYTI3fQogICAgICAuc21hbGx7Zm9udDo3MDAgMTVweCBBcmlhbCwnTWFsZ3VuIEdvdGhpYycsc2Fucy1zZXJpZjtmaWxsOiM0MDU2NGJ9CiAgICAgIC50aW55e2ZvbnQ6NjAwIDEzcHggQXJpYWwsJ01hbGd1biBHb3RoaWMnLHNhbnMtc2VyaWY7ZmlsbDojNTI2NDVjfQogICAgICAuYm94e2ZpbGw6I2ZiZmRmYjtzdHJva2U6IzI1MzUyZjtzdHJva2Utd2lkdGg6Mi4yfQogICAgICAuc29mdHtmaWxsOiNmNGY4ZjU7c3Ryb2tlOiNjZmRjZDI7c3Ryb2tlLXdpZHRoOjEuN30KICAgICAgLmdyZWVue2ZpbGw6I2VhZjZlZjtzdHJva2U6IzJkOGQ2YTtzdHJva2Utd2lkdGg6Mi4yfQogICAgICAuYmx1ZXtmaWxsOiNlN2YwZmY7c3Ryb2tlOiMzNTY4YTk7c3Ryb2tlLXdpZHRoOjIuMn0KICAgICAgLnJlZHtmaWxsOiNmZmU4ZTI7c3Ryb2tlOiNiNzRiM2Y7c3Ryb2tlLXdpZHRoOjIuMn0KICAgICAgLmFtYmVye2ZpbGw6I2ZmZjRkYjtzdHJva2U6IzlhNmExZjtzdHJva2Utd2lkdGg6Mi4yfQogICAgICAucHVycGxle2ZpbGw6I2YwZTlmZjtzdHJva2U6IzZkNTViODtzdHJva2Utd2lkdGg6Mi4yfQogICAgICAubGluZXtzdHJva2U6IzI1MzUyZjtzdHJva2Utd2lkdGg6MztmaWxsOm5vbmU7bWFya2VyLWVuZDp1cmwoI2Fycm93KX0KICAgICAgLmJsdWVMaW5le3N0cm9rZTojMzU2OGE5O3N0cm9rZS13aWR0aDozO2ZpbGw6bm9uZTttYXJrZXItZW5kOnVybCgjYmx1ZUFycm93KX0KICAgICAgLnJlZExpbmV7c3Ryb2tlOiNiNzRiM2Y7c3Ryb2tlLXdpZHRoOjM7ZmlsbDpub25lO21hcmtlci1lbmQ6dXJsKCNyZWRBcnJvdyl9CiAgICAgIC5kYXNoe3N0cm9rZTojNzE4MDc4O3N0cm9rZS13aWR0aDoyO3N0cm9rZS1kYXNoYXJyYXk6NyA3O2ZpbGw6bm9uZX0KICAgIDwvc3R5bGU+CiAgPC9kZWZzPgogIDxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9IiNmZmYiLz4KICA8dGV4dCB4PSI0OCIgeT0iNTgiIGNsYXNzPSJ0aXRsZSI+7J246rO1IOydtOyekOyZgCDrsIDrj4Qg7J6l7LmYIOuMgOydkSDtnZDrpoQ8L3RleHQ+CiAgPHRleHQgeD0iNDgiIHk9IjkwIiBjbGFzcz0ic3ViIj7tlbXsi6zsnYAg7Lih7KCVIOKGkiDquLDspIAg67mE6rWQIOKGkiDtlYTsmpTtlZwg7J6R7JqpIOKGkiDri6Tsi5wg7Lih7KCV7Jy866GcIOydtOyWtOyngOuKlCDsnYzshLEg7ZS865Oc67Cx7J2064ukLjwvdGV4dD4KCiAgPHJlY3QgeD0iNjAiIHk9IjEzNSIgd2lkdGg9IjUyMCIgaGVpZ2h0PSIyMTAiIHJ4PSIyMiIgY2xhc3M9ImdyZWVuIi8+CiAgPHRleHQgeD0iMzIwIiB5PSIxNzUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGNsYXNzPSJsYWJlbCI+66q47IaNIO2YiOuLuSDsobDsoIg8L3RleHQ+CiAgPHRleHQgeD0iMzIwIiB5PSIyMTUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGNsYXNzPSJzbWFsbCI+7ZiI64u5IOy4oeyglTwvdGV4dD4KPHRleHQgeD0iMzIwIiB5PSIyNDUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGNsYXNzPSJzbWFsbCI+6riw7KSA6rCSIDEyNuqzvCDruYTqtZA8L3RleHQ+Cjx0ZXh0IHg9IjMyMCIgeT0iMjc1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBjbGFzcz0ic21hbGwiPu2YiOuLuSDrhpLsnYwg4oaSIOyduOyKkOumsCDso7zsnoU8L3RleHQ+Cjx0ZXh0IHg9IjMyMCIgeT0iMzA1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBjbGFzcz0ic21hbGwiPu2YiOuLuSDqsJDshowg4oaSIOuLpOyLnCDsuKHsoJU8L3RleHQ+CgogIDxyZWN0IHg9IjcwMCIgeT0iMTM1IiB3aWR0aD0iNTIwIiBoZWlnaHQ9IjIxMCIgcng9IjIyIiBjbGFzcz0iYmx1ZSIvPgogIDx0ZXh0IHg9Ijk2MCIgeT0iMTc1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBjbGFzcz0ibGFiZWwiPuyLpO2XmCDsnqXsuZgg7KGw7KCIPC90ZXh0PgogIDx0ZXh0IHg9Ijk2MCIgeT0iMjE1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBjbGFzcz0ic21hbGwiPkIg64aS7J20IOy4oeyglTwvdGV4dD4KPHRleHQgeD0iOTYwIiB5PSIyNDUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGNsYXNzPSJzbWFsbCI+6riw7KSA7ISgIGjsmYAg67mE6rWQPC90ZXh0Pgo8dGV4dCB4PSI5NjAiIHk9IjI3NSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgY2xhc3M9InNtYWxsIj5C6rCAIOuCruydjCDihpIg7Y6M7ZSEIE9OPC90ZXh0Pgo8dGV4dCB4PSI5NjAiIHk9IjMwNSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgY2xhc3M9InNtYWxsIj5BIOycoOyehSDihpIg7Jqp7JWhIOuwgOuPhCDspp3qsIAg4oaSIEIg7IOB7Iq5PC90ZXh0PgogIDxwYXRoIGQ9Ik01ODAgMjQwIEM2MjAgMjQwLDY2MCAyNDAsNzAwIDI0MCIgY2xhc3M9ImxpbmUiLz4KICA8dGV4dCB4PSI2NDAiIHk9IjIyMiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgY2xhc3M9InRpbnkiPuuMgOydkeyLnO2CpOq4sDwvdGV4dD4KCiAgPHJlY3QgeD0iOTAiIHk9IjQyMCIgd2lkdGg9IjMwMCIgaGVpZ2h0PSIxMjAiIHJ4PSIxOCIgY2xhc3M9ImFtYmVyIi8+CiAgPHRleHQgeD0iMjQwIiB5PSI0NjIiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGNsYXNzPSJsYWJlbCI+7J247IqQ66awPC90ZXh0PgogIDx0ZXh0IHg9IjI0MCIgeT0iNDk3IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBjbGFzcz0ic21hbGwiPu2VhOyalO2VoCDrlYwg7Yis7J6F65CY64qUIOyhsOygiCDrrLzsp4g8L3RleHQ+CiAgPHBhdGggZD0iTTM5MCA0ODAgTDUwNSA0ODAiIGNsYXNzPSJsaW5lIi8+CiAgPHJlY3QgeD0iNTA1IiB5PSI0MjAiIHdpZHRoPSIzMDAiIGhlaWdodD0iMTIwIiByeD0iMTgiIGNsYXNzPSJhbWJlciIvPgogIDx0ZXh0IHg9IjY1NSIgeT0iNDYyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBjbGFzcz0ibGFiZWwiPuyVoeyytCBBPC90ZXh0PgogIDx0ZXh0IHg9IjY1NSIgeT0iNDk3IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBjbGFzcz0ic21hbGwiPu2VhOyalO2VoCDrlYwg7Y6M7ZSE66GcIOuTpOyWtOqwgOuKlCDrrLzsp4g8L3RleHQ+CgogIDxyZWN0IHg9IjkwIiB5PSI1OTAiIHdpZHRoPSIzMDAiIGhlaWdodD0iMTIwIiByeD0iMTgiIGNsYXNzPSJwdXJwbGUiLz4KICA8dGV4dCB4PSIyNDAiIHk9IjYzMiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgY2xhc3M9ImxhYmVsIj7snbTsnpA8L3RleHQ+CiAgPHRleHQgeD0iMjQwIiB5PSI2NjciIHRleHQtYW5jaG9yPSJtaWRkbGUiIGNsYXNzPSJzbWFsbCI+67aE67mEIOyXrOu2gOulvCDsobDsoIjtlZjripQg6riw6rSAPC90ZXh0PgogIDxwYXRoIGQ9Ik0zOTAgNjUwIEw1MDUgNjUwIiBjbGFzcz0ibGluZSIvPgogIDxyZWN0IHg9IjUwNSIgeT0iNTkwIiB3aWR0aD0iMzYwIiBoZWlnaHQ9IjEyMCIgcng9IjE4IiBjbGFzcz0icHVycGxlIi8+CiAgPHRleHQgeD0iNjg1IiB5PSI2MzIiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGNsYXNzPSJsYWJlbCI+7KCc7Ja06riwICsg7Y6M7ZSEPC90ZXh0PgogIDx0ZXh0IHg9IjY4NSIgeT0iNjY3IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBjbGFzcz0ic21hbGwiPuy4oeygleqwkuyXkCDrlLDrnbwgQSDtiKzsnoUg7Jes67aAIOqysOyglTwvdGV4dD4KCiAgPHJlY3QgeD0iOTIwIiB5PSI0MzAiIHdpZHRoPSIyNjAiIGhlaWdodD0iMjUwIiByeD0iMTgiIGNsYXNzPSJzb2Z0Ii8+CiAgPHRleHQgeD0iMTA1MCIgeT0iNDY4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBjbGFzcz0ibGFiZWwiPu2MkOyEnCDtlbXsi6w8L3RleHQ+CiAgPHRleHQgeD0iMTA1MCIgeT0iNTEyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBjbGFzcz0ic21hbGwiPkIg64aS7J20ICZsdDsgaCDihpIg7Y6M7ZSEIE9OPC90ZXh0Pgo8dGV4dCB4PSIxMDUwIiB5PSI1NDMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGNsYXNzPSJzbWFsbCI+QSDrsIDrj4QgJmd0OyDrrLw8L3RleHQ+Cjx0ZXh0IHg9IjEwNTAiIHk9IjU3NCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgY2xhc3M9InNtYWxsIj7smqnslaEg67CA64+EIOKGkSDihpIgQiDsg4Hsirk8L3RleHQ+Cjx0ZXh0IHg9IjEwNTAiIHk9IjYwNSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgY2xhc3M9InNtYWxsIj5CIOuGkuydtCDiiaUgaCDihpIg7Y6M7ZSEIE9GRjwvdGV4dD4KICA8L3N2Zz4="
+          }
+        ]
+      }
+    },
+    {
+      "problemNumber": "2",
+      "title": "포도당 산화 반응을 이용한 혈당 측정",
+      "subject": "화학",
+      "unit": "화학 반응식 · 질량 보존 · 혈당 측정",
+      "sourcePages": [
+        7,
+        8
+      ],
+      "verificationStatus": "검증 완료",
+      "keywords": [
+        "포도당 산화",
+        "과산화 수소",
+        "화학 반응식",
+        "질량 보존",
+        "질량비",
+        "혈당"
+      ],
+      "questionSummary": "포도당 산화 효소를 이용한 혈당 측정 과정에서 생성되는 미지 물질 ㉠을 화학 반응식의 원자 수 보존으로 알아내고, 반응물과 생성물의 질량비를 이용하여 인슐린 주사가 시작되는 기준량을 계산하는 문제이다.",
+      "concepts": [
+        {
+          "name": "화학 반응에서 원자의 종류와 수 보존",
+          "definition": "화학 반응에서는 반응 전후 원자의 종류와 전체 개수가 보존된다.",
+          "easyExplanation": "반응 전 있던 C, H, O 원자들이 없어지거나 새로 생기는 것이 아니라 서로 다른 방식으로 다시 묶인다.",
+          "why": "화학 반응은 원자 자체를 만들거나 없애는 과정이 아니라 원자들의 결합 방식이 바뀌는 과정이기 때문이다.",
+          "application": "C6H12O6 + O2 → C6H10O6 + ㉠에서 좌우의 H와 O 원자 수 차이를 이용해 ㉠의 화학식을 찾는다.",
+          "caution": "문제에 인쇄된 화학식의 아래첨자를 정확히 읽어야 한다."
+        },
+        {
+          "name": "과산화 수소",
+          "definition": "과산화 수소의 화학식은 H2O2이며 수소 원자 2개와 산소 원자 2개로 이루어진 물질이다.",
+          "easyExplanation": "물 H2O와 비슷해 보이지만 산소 원자가 하나 더 있는 H2O2이다.",
+          "why": "주어진 반응식에서 포도당과 산소에 있던 원자 수를 생성물과 맞추면 남는 원자가 H 2개, O 2개이기 때문이다.",
+          "application": "미지 생성물 ㉠을 H2O2로 결정한다.",
+          "caution": "H2O와 혼동하지 않는다."
+        },
+        {
+          "name": "질량 보존 법칙",
+          "definition": "화학 반응 전후 반응에 참여한 물질의 전체 질량은 같다.",
+          "easyExplanation": "반응하기 전 물질들의 무게를 모두 더한 값과 반응 후 생성물들의 무게를 모두 더한 값이 같다.",
+          "why": "화학 반응 전후 원자의 종류와 수가 보존되기 때문이다.",
+          "application": "질량비 90:16:89:x에서 90+16=89+x를 이용하여 x를 구한다.",
+          "caution": "반응물과 생성물의 질량을 같은 쪽끼리 더해야 한다."
+        },
+        {
+          "name": "비례식을 이용한 생성물의 질량",
+          "definition": "같은 화학 반응에서는 일정한 반응량의 물질에 대해 생성되는 물질의 질량도 일정한 비를 따른다.",
+          "easyExplanation": "포도당 90만큼 반응할 때 과산화 수소가 17만큼 생긴다면, 포도당 양이 달라져도 90:17의 비율을 이용할 수 있다.",
+          "why": "반응식에 따른 반응 비율이 일정하기 때문이다.",
+          "application": "혈당 126mg/mL에 대응하는 ㉠의 양을 126×17/90으로 계산한다.",
+          "caution": "그림 1에서는 혈당이 126 이하일 때는 인슐린을 주사하지 않고 126보다 클 때 주사하므로 경계값과 실제 주사 조건을 구분한다."
+        }
+      ],
+      "clues": [
+        {
+          "clue": "C6H12O6 + O2 → C6H10O6 + ㉠",
+          "concept": "원자 수 보존",
+          "reason": "좌우 원자 수의 차이를 계산하면 ㉠의 화학식을 알 수 있다."
+        },
+        {
+          "clue": "포도당 : 산소 : 글루코노락톤 : ㉠ = 90 : 16 : 89 : x",
+          "concept": "질량 보존",
+          "reason": "반응물의 총질량과 생성물의 총질량이 같아야 한다."
+        },
+        {
+          "clue": "1mL 혈액",
+          "concept": "혈당 농도와 포도당 질량",
+          "reason": "혈당의 단위가 mg/mL이므로 1mL에서는 농도값과 포도당의 mg 값이 수치상 같다."
+        },
+        {
+          "clue": "혈당 ≤126이면 인슐린을 주사하지 않음",
+          "concept": "인슐린 주사 임계값",
+          "reason": "126mg/mL에 해당하는 생성물의 양이 주사 여부를 나누는 경계값이 된다."
+        }
+      ],
+      "conceptFlows": [
+        {
+          "title": "㉠의 화학식 찾기",
+          "steps": [
+            "C6H12O6 + O2",
+            "전체 H 12개, O 8개",
+            "C6H10O6 생성",
+            "남는 H 2개, O 2개",
+            "㉠ = H2O2"
+          ]
+        },
+        {
+          "title": "질량비와 주사 기준",
+          "steps": [
+            "90 + 16 = 89 + x",
+            "x = 17",
+            "포도당 : H2O2 = 90 : 17",
+            "혈당 126mg/mL 경계",
+            "H2O2 = 126×17/90",
+            "23.8mg"
+          ]
+        }
+      ],
+      "subQuestions": [
+        {
+          "label": "2-1",
+          "question": "㉠을 구성하는 원소의 종류와 한 분자당 각 원자의 수를 말하시오.",
+          "solutionSteps": [
+            "반응식은 C6H12O6 + O2 → C6H10O6 + ㉠이다.",
+            "반응물 전체에서 C는 6개, H는 12개, O는 8개이다.",
+            "글루코노락톤 C6H10O6에는 C 6개, H 10개, O 6개가 들어 있다.",
+            "따라서 나머지 생성물 ㉠에는 H 원자 2개와 O 원자 2개가 있어야 한다.",
+            "따라서 ㉠은 H2O2이다."
+          ],
+          "shortAnswer": "수소(H) 2개, 산소(O) 2개. 즉 ㉠=H2O2",
+          "finalAnswer": "화학 반응 전후 원자의 종류와 수는 보존된다. 반응물에는 H 원자 12개와 O 원자 8개가 있고 C6H10O6에는 H 원자 10개와 O 원자 6개가 있으므로, ㉠에는 H 원자 2개와 O 원자 2개가 있어야 한다. 따라서 ㉠은 H2O2이다."
+        },
+        {
+          "label": "2-2",
+          "question": "1mL의 혈액을 반응시켰을 때 인공 이자가 인슐린을 주사하게 되는 ㉠의 최소량 y를 제시하고 그 이유를 설명하시오.",
+          "solutionSteps": [
+            "질량 보존 법칙에 따라 90+16=89+x이다.",
+            "따라서 x=17이고 포도당과 ㉠의 질량비는 90:17이다.",
+            "그림 1에서 혈당이 126mg/mL 이하이면 인슐린을 주사하지 않고, 126mg/mL보다 높을 때 인슐린을 주사한다.",
+            "1mL 혈액에서 혈당 126mg/mL은 포도당 126mg에 해당한다.",
+            "포도당 126mg에 대응하는 ㉠의 양은 126×17/90=23.8mg이다.",
+            "따라서 23.8mg은 인슐린 주사 여부를 나누는 임계량이며, 실제로 인슐린이 주사되는 조건은 생성된 ㉠의 양이 23.8mg보다 클 때이다."
+          ],
+          "shortAnswer": "임계량 23.8mg. 실제 주사 조건은 y>23.8mg.",
+          "finalAnswer": "질량 보존에 의해 90+16=89+x이므로 x=17이다. 따라서 포도당과 ㉠의 질량비는 90:17이다. 1mL 혈액에서 혈당 126mg/mL에 해당하는 포도당은 126mg이므로 이때 생성되는 ㉠의 양은 126×17/90=23.8mg이다. 그림 1에서는 혈당이 126mg/mL 이하일 때 인슐린을 주사하지 않으므로 23.8mg은 경계량이고, 실제 인슐린 주사는 ㉠의 양이 23.8mg보다 클 때 이루어진다."
+        }
+      ],
+      "commonMistakes": [
+        "글루코노락톤의 화학식을 C6H12O6으로 잘못 읽는 것",
+        "㉠을 H2O라고 답하는 것",
+        "90+16과 89+x를 질량 보존으로 연결하지 않는 것",
+        "혈당 126mg/mL에서 1mL 혈액의 포도당 질량이 126mg이라는 점을 놓치는 것",
+        "23.8mg에서 바로 인슐린을 주사한다고 단정하는 것. 문제의 순서도에서는 126 이하일 때 주사하지 않는다."
+      ],
+      "teacherGuide": {
+        "opening": "㉠을 외워서 과산화 수소라고 하지 말고 반드시 화학 반응식의 원자 수 차이만으로 학생이 직접 찾게 한다.",
+        "teachingOrder": [
+          "화학식을 외워서 풀지 말고 반응 전후 원자 수를 세는 문제라고 안내한다.",
+          "반응물 전체와 C6H10O6의 H, O 개수를 비교해 ㉠=H2O2를 도출한다.",
+          "질량비 90:16:89:x는 질량 보존으로 x=17이 된다는 점을 계산한다.",
+          "포도당과 ㉠의 질량비 90:17을 혈당 126mg/mL, 혈액 1mL 조건에 연결한다.",
+          "126×17/90=23.8mg을 구한 뒤, 이 값은 경계량이고 실제 주사 조건은 23.8mg보다 클 때라고 구분한다."
+        ],
+        "questionsToAsk": [
+          "Q. 반응 전후에 원자 자체가 사라질 수 있을까? / A. 없다. 원자의 종류와 수는 보존된다.",
+          "Q. C6H12O6+O2에서 산소 원자는 모두 몇 개일까? / A. 8개이다.",
+          "Q. C6H10O6를 만들고 남는 H와 O는 각각 몇 개일까? / A. H 2개, O 2개이다.",
+          "Q. 90+16=89+x에서 x는 얼마일까? / A. 17이다.",
+          "Q. 23.8mg에서 바로 주사한다고 말해도 될까? / A. 아니다. 23.8mg은 경계량이고, 초과할 때 주사한다."
+        ],
+        "boardPoints": [
+          "C6H12O6 + O2 → C6H10O6 + H2O2",
+          "H: 12 → 10 + 2",
+          "O: 8 → 6 + 2",
+          "90 + 16 = 89 + x → x=17",
+          "126×17/90 = 23.8mg",
+          "주사 조건: ㉠ > 23.8mg"
+        ],
+        "emphasis": [
+          "이 문항은 계산보다 '126 이하'라는 부등호를 정확히 읽는 것이 중요하다."
+        ],
+        "visualNotes": [
+          "반응식에서 남는 원자를 세어 H2O2를 찾는 과정을 크게 보여준다.",
+          "23.8mg은 바로 주사량이 아니라 주사 여부를 나누는 경계량임을 표시한다."
+        ],
+        "visuals": [
+          {
+            "id": "teacher-visual-포도당 산화 반응과 주사 기준.svg",
+            "name": "포도당 산화 반응과 주사 기준.svg",
+            "type": "image/svg+xml",
+            "dataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgwIiBoZWlnaHQ9IjgyMCIgdmlld0JveD0iMCAwIDEyODAgODIwIj4KICAKICA8ZGVmcz4KICAgIDxtYXJrZXIgaWQ9ImFycm93IiBtYXJrZXJXaWR0aD0iMTAiIG1hcmtlckhlaWdodD0iMTAiIHJlZlg9IjgiIHJlZlk9IjMiIG9yaWVudD0iYXV0byI+CiAgICAgIDxwYXRoIGQ9Ik0wLDAgTDAsNiBMOCwzIHoiIGZpbGw9IiMyNTM1MmYiLz4KICAgIDwvbWFya2VyPgogICAgPG1hcmtlciBpZD0iYmx1ZUFycm93IiBtYXJrZXJXaWR0aD0iMTAiIG1hcmtlckhlaWdodD0iMTAiIHJlZlg9IjgiIHJlZlk9IjMiIG9yaWVudD0iYXV0byI+CiAgICAgIDxwYXRoIGQ9Ik0wLDAgTDAsNiBMOCwzIHoiIGZpbGw9IiMzNTY4YTkiLz4KICAgIDwvbWFya2VyPgogICAgPG1hcmtlciBpZD0icmVkQXJyb3ciIG1hcmtlcldpZHRoPSIxMCIgbWFya2VySGVpZ2h0PSIxMCIgcmVmWD0iOCIgcmVmWT0iMyIgb3JpZW50PSJhdXRvIj4KICAgICAgPHBhdGggZD0iTTAsMCBMMCw2IEw4LDMgeiIgZmlsbD0iI2I3NGIzZiIvPgogICAgPC9tYXJrZXI+CiAgICA8c3R5bGU+CiAgICAgIC50aXRsZXtmb250OjgwMCAzMHB4IEFyaWFsLCdNYWxndW4gR290aGljJyxzYW5zLXNlcmlmO2ZpbGw6IzFmMmEyN30KICAgICAgLnN1Yntmb250OjYwMCAxN3B4IEFyaWFsLCdNYWxndW4gR290aGljJyxzYW5zLXNlcmlmO2ZpbGw6IzQwNTY0Yn0KICAgICAgLmxhYmVse2ZvbnQ6ODAwIDIwcHggQXJpYWwsJ01hbGd1biBHb3RoaWMnLHNhbnMtc2VyaWY7ZmlsbDojMWYyYTI3fQogICAgICAuc21hbGx7Zm9udDo3MDAgMTVweCBBcmlhbCwnTWFsZ3VuIEdvdGhpYycsc2Fucy1zZXJpZjtmaWxsOiM0MDU2NGJ9CiAgICAgIC50aW55e2ZvbnQ6NjAwIDEzcHggQXJpYWwsJ01hbGd1biBHb3RoaWMnLHNhbnMtc2VyaWY7ZmlsbDojNTI2NDVjfQogICAgICAuYm94e2ZpbGw6I2ZiZmRmYjtzdHJva2U6IzI1MzUyZjtzdHJva2Utd2lkdGg6Mi4yfQogICAgICAuc29mdHtmaWxsOiNmNGY4ZjU7c3Ryb2tlOiNjZmRjZDI7c3Ryb2tlLXdpZHRoOjEuN30KICAgICAgLmdyZWVue2ZpbGw6I2VhZjZlZjtzdHJva2U6IzJkOGQ2YTtzdHJva2Utd2lkdGg6Mi4yfQogICAgICAuYmx1ZXtmaWxsOiNlN2YwZmY7c3Ryb2tlOiMzNTY4YTk7c3Ryb2tlLXdpZHRoOjIuMn0KICAgICAgLnJlZHtmaWxsOiNmZmU4ZTI7c3Ryb2tlOiNiNzRiM2Y7c3Ryb2tlLXdpZHRoOjIuMn0KICAgICAgLmFtYmVye2ZpbGw6I2ZmZjRkYjtzdHJva2U6IzlhNmExZjtzdHJva2Utd2lkdGg6Mi4yfQogICAgICAucHVycGxle2ZpbGw6I2YwZTlmZjtzdHJva2U6IzZkNTViODtzdHJva2Utd2lkdGg6Mi4yfQogICAgICAubGluZXtzdHJva2U6IzI1MzUyZjtzdHJva2Utd2lkdGg6MztmaWxsOm5vbmU7bWFya2VyLWVuZDp1cmwoI2Fycm93KX0KICAgICAgLmJsdWVMaW5le3N0cm9rZTojMzU2OGE5O3N0cm9rZS13aWR0aDozO2ZpbGw6bm9uZTttYXJrZXItZW5kOnVybCgjYmx1ZUFycm93KX0KICAgICAgLnJlZExpbmV7c3Ryb2tlOiNiNzRiM2Y7c3Ryb2tlLXdpZHRoOjM7ZmlsbDpub25lO21hcmtlci1lbmQ6dXJsKCNyZWRBcnJvdyl9CiAgICAgIC5kYXNoe3N0cm9rZTojNzE4MDc4O3N0cm9rZS13aWR0aDoyO3N0cm9rZS1kYXNoYXJyYXk6NyA3O2ZpbGw6bm9uZX0KICAgIDwvc3R5bGU+CiAgPC9kZWZzPgogIDxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9IiNmZmYiLz4KICA8dGV4dCB4PSI0OCIgeT0iNTgiIGNsYXNzPSJ0aXRsZSI+7Y+s64+E64u5IOyCsO2ZlCDrsJjsnZHqs7wg7J247IqQ66awIOyjvOyCrCDquLDspIA8L3RleHQ+CiAgPHRleHQgeD0iNDgiIHk9IjkwIiBjbGFzcz0ic3ViIj7jiaDsnYAg7Jm47JuM7IScIOunnu2eiOuKlCDqsoPsnbQg7JWE64uI6528IOybkOyekCDsiJgg67O07KG06rO8IOyniOufiSDrs7TsobTsnLzroZwg64+E7Lac7ZWc64ukLjwvdGV4dD4KCiAgPHJlY3QgeD0iNzAiIHk9IjE0MCIgd2lkdGg9IjExNDAiIGhlaWdodD0iMTM1IiByeD0iMjAiIGNsYXNzPSJncmVlbiIvPgogIDx0ZXh0IHg9IjY0MCIgeT0iMTg1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBjbGFzcz0ibGFiZWwiPkPigoZI4oKB4oKCT+KChiArIE/igoIg4oaSIEPigoZI4oKB4oKAT+KChiArIOOJoDwvdGV4dD4KICA8dGV4dCB4PSI2NDAiIHk9IjIyNSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgY2xhc3M9InNtYWxsIj7smbzsqr0gSCAxMiwgTyA4IC8g7Jik66W47Kq9IOq4gOujqOy9lOuFuOudve2GpCBIIDEwLCBPIDYg4oaSIOuCqOuKlCDsm5DsnpAgSCAyLCBPIDI8L3RleHQ+CiAgPHRleHQgeD0iNjQwIiB5PSIyNTUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGNsYXNzPSJsYWJlbCI+65Sw65287IScIOOJoCA9IEjigoJP4oKCPC90ZXh0PgoKICA8cmVjdCB4PSI5NSIgeT0iMzYwIiB3aWR0aD0iMjYwIiBoZWlnaHQ9IjExMCIgcng9IjE4IiBjbGFzcz0iYmx1ZSIvPgogIDx0ZXh0IHg9IjIyNSIgeT0iNDAyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBjbGFzcz0ibGFiZWwiPuyniOufieu5hDwvdGV4dD4KICA8dGV4dCB4PSIyMjUiIHk9IjQzNSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgY2xhc3M9InNtYWxsIj45MCA6IDE2IDogODkgOiB4PC90ZXh0PgogIDxwYXRoIGQ9Ik0zNTUgNDE1IEw0NzUgNDE1IiBjbGFzcz0ibGluZSIvPgogIDxyZWN0IHg9IjQ3NSIgeT0iMzYwIiB3aWR0aD0iMzAwIiBoZWlnaHQ9IjExMCIgcng9IjE4IiBjbGFzcz0iYW1iZXIiLz4KICA8dGV4dCB4PSI2MjUiIHk9IjQwMiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgY2xhc3M9ImxhYmVsIj7sp4jrn4kg67O07KG0PC90ZXh0PgogIDx0ZXh0IHg9IjYyNSIgeT0iNDM1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBjbGFzcz0ic21hbGwiPjkwICsgMTYgPSA4OSArIHgg4oaSIHggPSAxNzwvdGV4dD4KICA8cGF0aCBkPSJNNzc1IDQxNSBMODk1IDQxNSIgY2xhc3M9ImxpbmUiLz4KICA8cmVjdCB4PSI4OTUiIHk9IjM2MCIgd2lkdGg9IjI5MCIgaGVpZ2h0PSIxMTAiIHJ4PSIxOCIgY2xhc3M9InJlZCIvPgogIDx0ZXh0IHg9IjEwNDAiIHk9IjQwMiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgY2xhc3M9ImxhYmVsIj7tj6zrj4Tri7kgOiBI4oKCT+KCgjwvdGV4dD4KICA8dGV4dCB4PSIxMDQwIiB5PSI0MzUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGNsYXNzPSJzbWFsbCI+OTAgOiAxNzwvdGV4dD4KCiAgPHJlY3QgeD0iMTYwIiB5PSI1NjAiIHdpZHRoPSI5NjAiIGhlaWdodD0iMTUwIiByeD0iMjIiIGNsYXNzPSJzb2Z0Ii8+CiAgPHRleHQgeD0iNjQwIiB5PSI2MDMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGNsYXNzPSJsYWJlbCI+7ZiI64u5IDEyNiBtZy9tTCwg7ZiI7JWhIDEgbUwg4oaSIO2PrOuPhOuLuSAxMjYgbWc8L3RleHQ+CiAgPHRleHQgeD0iNjQwIiB5PSI2NDUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGNsYXNzPSJ0aXRsZSI+MTI2IMOXIDE3IC8gOTAgPSAyMy44IG1nPC90ZXh0PgogIDx0ZXh0IHg9IjY0MCIgeT0iNjg4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBjbGFzcz0ic21hbGwiPjIzLjggbWfsnYAg6rK96rOE65+J7J2064ukLiDsi6TsoJwg7KO87IKsIOyhsOqxtOydgCDjiaDsnZgg7JaR7J20IDIzLjggbWfrs7Tri6Qg7YG0IOuVjOydtOuLpC48L3RleHQ+CiAgPC9zdmc+"
+          }
+        ]
+      }
+    },
+    {
+      "problemNumber": "3",
+      "title": "소화 효소와 영양소 검출 실험",
+      "subject": "생명",
+      "unit": "소화와 영양소 검출",
+      "sourcePages": [
+        9,
+        10
+      ],
+      "verificationStatus": "검증 완료",
+      "keywords": [
+        "아이오딘 반응",
+        "베네딕트 반응",
+        "녹말",
+        "포도당",
+        "엿당",
+        "아밀레이스",
+        "소변 검사",
+        "대조 실험"
+      ],
+      "questionSummary": "아이오딘-아이오딘화 칼륨 반응과 베네딕트 반응의 의미를 이해하고, 녹말의 소화 및 정상인과 당뇨병 환자의 소변 성분 차이를 실험 결과표와 연결하여 미지 시험관의 내용물을 추론하는 문제이다.",
+      "concepts": [
+        {
+          "name": "아이오딘-아이오딘화 칼륨 반응",
+          "definition": "아이오딘-아이오딘화 칼륨 용액은 녹말이 존재할 때 특유의 색 변화를 나타내므로 녹말 검출에 사용한다.",
+          "easyExplanation": "아이오딘 용액은 녹말을 찾는 검사라고 생각하면 된다.",
+          "why": "아이오딘이 녹말 구조와 결합하면서 특징적인 색이 나타나기 때문이다.",
+          "application": "결과표에서 아이오딘 반응이 O이면 그 시험관에 녹말이 남아 있다고 판단한다.",
+          "caution": "포도당이나 엿당은 아이오딘 반응으로 검출하지 않는다."
+        },
+        {
+          "name": "베네딕트 반응",
+          "definition": "베네딕트 용액은 가열할 때 포도당과 엿당처럼 환원성을 가진 당이 존재하면 색 변화를 나타낸다.",
+          "easyExplanation": "이 실험에서는 포도당이나 녹말이 소화되어 생긴 엿당을 찾는 검사이다.",
+          "why": "포도당과 엿당 같은 환원당이 베네딕트 용액의 구리 이온을 환원시키기 때문이다.",
+          "application": "당뇨병 환자의 소변 속 포도당과 녹말이 소화되며 생성된 엿당을 검출할 수 있다.",
+          "caution": "베네딕트 반응을 단순히 '포도당만 검출한다'고 하면 이 실험의 녹말 소화 결과를 충분히 설명하지 못한다."
+        },
+        {
+          "name": "녹말의 소화",
+          "definition": "이자에서 분비되는 아밀레이스와 같은 탄수화물 소화 효소는 녹말을 더 작은 당인 엿당 등으로 분해한다.",
+          "easyExplanation": "큰 녹말 분자를 잘게 잘라 베네딕트 반응을 할 수 있는 작은 당으로 만드는 것이다.",
+          "why": "소화 효소는 특정 영양소의 큰 분자를 더 작은 분자로 분해하는 촉매 역할을 하기 때문이다.",
+          "application": "녹말 용액에 소화제 용액을 넣은 시험관에서는 녹말과 새로 생성된 엿당이 동시에 존재할 수 있다.",
+          "caution": "5분 동안 모든 녹말이 완전히 소화되었다고 문제에서 말하지 않았으므로, 녹말이 전부 사라졌다고 임의로 가정하면 안 된다."
+        },
+        {
+          "name": "당뇨병과 소변의 포도당",
+          "definition": "정상적으로는 소변에 포도당이 거의 검출되지 않지만, 혈당이 지나치게 높아지면 포도당이 소변으로 배출될 수 있다.",
+          "easyExplanation": "당뇨병 환자는 혈액 속 당이 너무 많아 일부 포도당이 소변까지 나올 수 있다.",
+          "why": "콩팥에서 포도당을 재흡수할 수 있는 능력을 넘어설 정도로 혈당이 높아질 수 있기 때문이다.",
+          "application": "당뇨병 환자의 소변은 베네딕트 반응에서 양성, 정상 혈당인 사람의 소변은 음성으로 판단한다.",
+          "caution": "문제에서 당뇨병 외 다른 질병은 고려하지 않는다고 했으므로 다른 성분 이상을 임의로 추가하지 않는다."
+        }
+      ],
+      "clues": [
+        {
+          "clue": "A = 소화제 용액 + 증류수, B = 증류수",
+          "concept": "대조 실험",
+          "reason": "소화제 자체나 증류수가 검출 반응을 일으키는지 확인하는 기준 역할을 한다."
+        },
+        {
+          "clue": "C~F에는 ㉢~㉥가 순서에 상관없이 들어 있음",
+          "concept": "반응 결과를 이용한 미지 시료 판별",
+          "reason": "아이오딘과 베네딕트 반응의 조합으로 각 시험관의 성분을 추론해야 한다."
+        },
+        {
+          "clue": "F는 아이오딘 O, 베네딕트 O",
+          "concept": "녹말과 환원당이 함께 존재",
+          "reason": "녹말 일부가 남아 있으면서 소화로 엿당도 생성된 녹말+소화제 용액에 해당한다."
+        },
+        {
+          "clue": "E는 아이오딘 X, 베네딕트 O",
+          "concept": "녹말 없음 + 포도당 존재",
+          "reason": "당뇨병 환자의 소변에 포도당이 존재하는 경우와 일치한다."
+        },
+        {
+          "clue": "C는 베네딕트 X",
+          "concept": "환원당 없음",
+          "reason": "정상 혈당인 사람의 소변은 포도당이 검출되지 않으며 녹말도 존재하지 않는다."
+        }
+      ],
+      "conceptFlows": [
+        {
+          "title": "검출 반응",
+          "steps": [
+            "아이오딘 반응 O",
+            "녹말 존재",
+            "베네딕트 반응 O",
+            "포도당 또는 엿당 존재"
+          ]
+        },
+        {
+          "title": "F 판별",
+          "steps": [
+            "아이오딘 O",
+            "녹말 남아 있음",
+            "베네딕트 O",
+            "엿당 생성",
+            "녹말 + 소화제 용액"
+          ]
+        },
+        {
+          "title": "C·E 판별",
+          "steps": [
+            "C: 베네딕트 X",
+            "포도당 없음",
+            "정상인 소변",
+            "E: 아이오딘 X + 베네딕트 O",
+            "녹말 없음 + 포도당 있음",
+            "당뇨병 환자 소변"
+          ]
+        }
+      ],
+      "subQuestions": [
+        {
+          "label": "3-1",
+          "question": "실험 과정 ⑦과 ⑧에서 각각 검출할 수 있는 모든 영양소를 제시하시오.",
+          "solutionSteps": [
+            "⑦에서는 아이오딘-아이오딘화 칼륨 용액을 넣으므로 녹말을 검출할 수 있다.",
+            "⑧에서는 베네딕트 용액을 넣고 가열하므로 환원당을 검출한다.",
+            "이 실험에 등장할 수 있는 환원당에는 당뇨병 환자의 소변 속 포도당과 녹말이 소화되며 생성되는 엿당이 있다.",
+            "따라서 ⑧에서 검출 가능한 영양소는 포도당과 엿당이다."
+          ],
+          "shortAnswer": "⑦ 녹말 / ⑧ 포도당, 엿당",
+          "finalAnswer": "⑦의 아이오딘-아이오딘화 칼륨 용액으로는 녹말을 검출할 수 있다. ⑧의 베네딕트 용액과 가열을 이용하면 이 실험에서 존재할 수 있는 환원당인 포도당과 엿당을 검출할 수 있다."
+        },
+        {
+          "label": "3-2",
+          "question": "㉢~㉥ 중 C, E, F에 담긴 것은 각각 무엇인지 말하고 그 이유를 설명하시오.",
+          "solutionSteps": [
+            "㉢~㉥는 각각 녹말+증류수, 녹말+소화제 용액, 정상 혈당인 사람의 오줌, 당뇨병 환자의 오줌이다.",
+            "C는 베네딕트 반응이 X이다. 정상인의 소변에는 포도당이 검출되지 않고 녹말도 없으므로 C는 정상 혈당인 사람의 오줌으로 판단할 수 있다.",
+            "E는 아이오딘 반응 X, 베네딕트 반응 O이다. 녹말은 없고 포도당은 존재하는 경우이므로 E는 당뇨병 환자의 오줌이다.",
+            "F는 아이오딘 반응 O와 베네딕트 반응 O가 동시에 나타난다.",
+            "녹말 용액에 소화제 용액을 넣으면 소화 효소가 녹말 일부를 엿당으로 분해하여 베네딕트 반응이 나타날 수 있다.",
+            "문제에서는 모든 녹말이 완전히 분해되었다고 하지 않았으므로 녹말 일부가 남아 아이오딘 반응도 나타날 수 있다.",
+            "따라서 F는 녹말 용액+소화제 용액이다.",
+            "남는 D는 녹말 용액+증류수이며 아이오딘 반응 O가 나타나는 것과 일치한다."
+          ],
+          "shortAnswer": "C=정상 혈당인 사람의 오줌, E=당뇨병 환자의 오줌, F=녹말 용액+소화제 용액",
+          "finalAnswer": "C는 정상 혈당인 사람의 오줌이다. C에서는 베네딕트 반응이 나타나지 않아 포도당과 같은 환원당이 없다고 판단할 수 있다. E는 아이오딘 반응은 없고 베네딕트 반응이 나타나므로 녹말은 없지만 포도당이 존재하는 당뇨병 환자의 오줌이다. F는 아이오딘 반응과 베네딕트 반응이 모두 나타난다. 이는 소화 효소에 의해 녹말 일부가 엿당으로 분해되었지만 녹말 일부도 남아 있는 상태로 볼 수 있으므로 F는 녹말 용액과 소화제 용액의 혼합물이다."
+        }
+      ],
+      "commonMistakes": [
+        "아이오딘 반응이 포도당을 검출한다고 생각하는 것",
+        "베네딕트 반응을 포도당만 검출한다고 제한하는 것. 이 실험에서는 엿당도 검출된다.",
+        "소화제와 녹말을 섞으면 5분 안에 녹말이 반드시 전부 사라진다고 임의로 가정하는 것",
+        "F에서 아이오딘과 베네딕트가 모두 양성이므로 실험 오류라고 판단하는 것",
+        "정상인의 소변과 당뇨병 환자의 소변을 녹말 반응으로 구별하려고 하는 것",
+        "결과의 '-'를 변화 없음(X)으로 해석하는 것. '-'는 기록하지 못한 값이다."
+      ],
+      "teacherGuide": {
+        "opening": "먼저 결과표를 풀려고 하지 말고 '아이오딘은 무엇, 베네딕트는 무엇을 찾는가'를 표 위에 적게 한다.",
+        "teachingOrder": [
+          "표를 바로 풀지 말고 아이오딘은 녹말, 베네딕트는 포도당·엿당을 찾는 검사라고 먼저 적는다.",
+          "정상 소변과 당뇨병 소변의 차이는 베네딕트 반응으로 드러난다는 점을 잡아준다.",
+          "C는 베네딕트 X이므로 정상 혈당인 사람의 오줌으로 판별한다.",
+          "E는 아이오딘 X, 베네딕트 O이므로 녹말은 없고 포도당이 있는 당뇨병 환자의 오줌으로 판별한다.",
+          "F는 아이오딘 O, 베네딕트 O이므로 녹말 일부가 남아 있고 소화로 엿당도 생긴 녹말+소화제 용액으로 설명한다.",
+          "마지막에 -는 음성이 아니라 기록 못 함이라는 점을 강조해 표 해석 실수를 막는다."
+        ],
+        "questionsToAsk": [
+          "Q. 아이오딘 반응으로 찾는 영양소는 무엇일까? / A. 녹말이다.",
+          "Q. 베네딕트 반응으로 이 실험에서 찾을 수 있는 것은 무엇일까? / A. 포도당과 엿당이다.",
+          "Q. 당뇨병 환자의 소변은 어떤 반응이 양성일까? / A. 포도당 때문에 베네딕트 반응이 양성이다.",
+          "Q. 소화제를 넣으면 녹말이 5분 안에 반드시 전부 사라질까? / A. 아니다. 일부 녹말이 남을 수 있다.",
+          "Q. 표의 -는 X와 같은 뜻일까? / A. 아니다. 기록하지 못했다는 뜻이다."
+        ],
+        "boardPoints": [
+          "아이오딘 → 녹말",
+          "베네딕트+가열 → 포도당·엿당",
+          "C: 베네딕트 X → 정상 소변",
+          "E: 아이오딘 X, 베네딕트 O → 당뇨병 소변",
+          "F: 아이오딘 O, 베네딕트 O → 녹말+소화제",
+          "- = 기록 못 함, X = 변화 없음"
+        ],
+        "emphasis": [
+          "이 문항의 가장 큰 함정은 '소화가 일어남'과 '소화가 완전히 끝남'을 같은 뜻으로 보는 것이다.",
+          "기록 못 함(-)은 음성(X)과 전혀 다른 정보이므로 반드시 구분한다."
+        ],
+        "visualNotes": [
+          "아이오딘 반응과 베네딕트 반응을 먼저 고정한 뒤 C, E, F를 역추론한다.",
+          "F는 소화가 일부 진행된 상태라 녹말과 엿당이 함께 있을 수 있음을 그림으로 보여준다."
+        ],
+        "visuals": [
+          {
+            "id": "teacher-visual-영양소 검출 반응 판별 도식.svg",
+            "name": "영양소 검출 반응 판별 도식.svg",
+            "type": "image/svg+xml",
+            "dataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgwIiBoZWlnaHQ9Ijg4MCIgdmlld0JveD0iMCAwIDEyODAgODgwIj4KICAKICA8ZGVmcz4KICAgIDxtYXJrZXIgaWQ9ImFycm93IiBtYXJrZXJXaWR0aD0iMTAiIG1hcmtlckhlaWdodD0iMTAiIHJlZlg9IjgiIHJlZlk9IjMiIG9yaWVudD0iYXV0byI+CiAgICAgIDxwYXRoIGQ9Ik0wLDAgTDAsNiBMOCwzIHoiIGZpbGw9IiMyNTM1MmYiLz4KICAgIDwvbWFya2VyPgogICAgPG1hcmtlciBpZD0iYmx1ZUFycm93IiBtYXJrZXJXaWR0aD0iMTAiIG1hcmtlckhlaWdodD0iMTAiIHJlZlg9IjgiIHJlZlk9IjMiIG9yaWVudD0iYXV0byI+CiAgICAgIDxwYXRoIGQ9Ik0wLDAgTDAsNiBMOCwzIHoiIGZpbGw9IiMzNTY4YTkiLz4KICAgIDwvbWFya2VyPgogICAgPG1hcmtlciBpZD0icmVkQXJyb3ciIG1hcmtlcldpZHRoPSIxMCIgbWFya2VySGVpZ2h0PSIxMCIgcmVmWD0iOCIgcmVmWT0iMyIgb3JpZW50PSJhdXRvIj4KICAgICAgPHBhdGggZD0iTTAsMCBMMCw2IEw4LDMgeiIgZmlsbD0iI2I3NGIzZiIvPgogICAgPC9tYXJrZXI+CiAgICA8c3R5bGU+CiAgICAgIC50aXRsZXtmb250OjgwMCAzMHB4IEFyaWFsLCdNYWxndW4gR290aGljJyxzYW5zLXNlcmlmO2ZpbGw6IzFmMmEyN30KICAgICAgLnN1Yntmb250OjYwMCAxN3B4IEFyaWFsLCdNYWxndW4gR290aGljJyxzYW5zLXNlcmlmO2ZpbGw6IzQwNTY0Yn0KICAgICAgLmxhYmVse2ZvbnQ6ODAwIDIwcHggQXJpYWwsJ01hbGd1biBHb3RoaWMnLHNhbnMtc2VyaWY7ZmlsbDojMWYyYTI3fQogICAgICAuc21hbGx7Zm9udDo3MDAgMTVweCBBcmlhbCwnTWFsZ3VuIEdvdGhpYycsc2Fucy1zZXJpZjtmaWxsOiM0MDU2NGJ9CiAgICAgIC50aW55e2ZvbnQ6NjAwIDEzcHggQXJpYWwsJ01hbGd1biBHb3RoaWMnLHNhbnMtc2VyaWY7ZmlsbDojNTI2NDVjfQogICAgICAuYm94e2ZpbGw6I2ZiZmRmYjtzdHJva2U6IzI1MzUyZjtzdHJva2Utd2lkdGg6Mi4yfQogICAgICAuc29mdHtmaWxsOiNmNGY4ZjU7c3Ryb2tlOiNjZmRjZDI7c3Ryb2tlLXdpZHRoOjEuN30KICAgICAgLmdyZWVue2ZpbGw6I2VhZjZlZjtzdHJva2U6IzJkOGQ2YTtzdHJva2Utd2lkdGg6Mi4yfQogICAgICAuYmx1ZXtmaWxsOiNlN2YwZmY7c3Ryb2tlOiMzNTY4YTk7c3Ryb2tlLXdpZHRoOjIuMn0KICAgICAgLnJlZHtmaWxsOiNmZmU4ZTI7c3Ryb2tlOiNiNzRiM2Y7c3Ryb2tlLXdpZHRoOjIuMn0KICAgICAgLmFtYmVye2ZpbGw6I2ZmZjRkYjtzdHJva2U6IzlhNmExZjtzdHJva2Utd2lkdGg6Mi4yfQogICAgICAucHVycGxle2ZpbGw6I2YwZTlmZjtzdHJva2U6IzZkNTViODtzdHJva2Utd2lkdGg6Mi4yfQogICAgICAubGluZXtzdHJva2U6IzI1MzUyZjtzdHJva2Utd2lkdGg6MztmaWxsOm5vbmU7bWFya2VyLWVuZDp1cmwoI2Fycm93KX0KICAgICAgLmJsdWVMaW5le3N0cm9rZTojMzU2OGE5O3N0cm9rZS13aWR0aDozO2ZpbGw6bm9uZTttYXJrZXItZW5kOnVybCgjYmx1ZUFycm93KX0KICAgICAgLnJlZExpbmV7c3Ryb2tlOiNiNzRiM2Y7c3Ryb2tlLXdpZHRoOjM7ZmlsbDpub25lO21hcmtlci1lbmQ6dXJsKCNyZWRBcnJvdyl9CiAgICAgIC5kYXNoe3N0cm9rZTojNzE4MDc4O3N0cm9rZS13aWR0aDoyO3N0cm9rZS1kYXNoYXJyYXk6NyA3O2ZpbGw6bm9uZX0KICAgIDwvc3R5bGU+CiAgPC9kZWZzPgogIDxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9IiNmZmYiLz4KICA8dGV4dCB4PSI0OCIgeT0iNTgiIGNsYXNzPSJ0aXRsZSI+7JiB7JaR7IaMIOqygOy2nCDrsJjsnZHsnLzroZwgQ8K3RcK3RiDtjJDrs4TtlZjquLA8L3RleHQ+CiAgPHRleHQgeD0iNDgiIHk9IjkwIiBjbGFzcz0ic3ViIj7rqLzsoIAg65GQIOqygOy2nCDrsJjsnZHsnZgg7J2Y66+466W8IOqzoOygle2VmOqzoCwg7ZGc7J2YIE8vWC8t66W8IOywqOuhgOuhnCDtlbTshJ3tlZzri6QuPC90ZXh0PgoKICA8cmVjdCB4PSI3MCIgeT0iMTQwIiB3aWR0aD0iNTAwIiBoZWlnaHQ9IjE1MCIgcng9IjIyIiBjbGFzcz0iYmx1ZSIvPgogIDx0ZXh0IHg9IjMyMCIgeT0iMTg1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBjbGFzcz0ibGFiZWwiPuyVhOydtOyYpOuUmC3slYTsnbTsmKTrlJjtmZQg7Lm866WoPC90ZXh0PgogIDx0ZXh0IHg9IjMyMCIgeT0iMjI1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBjbGFzcz0idGl0bGUiPuuFueunkCDqsoDstpw8L3RleHQ+CiAgPHRleHQgeD0iMzIwIiB5PSIyNjAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGNsYXNzPSJzbWFsbCI+T+ydtOuptCDrhbnrp5DsnbQg64Ko7JWEIOyeiOuLpOqzoCDrs7jri6QuPC90ZXh0PgoKICA8cmVjdCB4PSI3MTAiIHk9IjE0MCIgd2lkdGg9IjUwMCIgaGVpZ2h0PSIxNTAiIHJ4PSIyMiIgY2xhc3M9InJlZCIvPgogIDx0ZXh0IHg9Ijk2MCIgeT0iMTg1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBjbGFzcz0ibGFiZWwiPuuyoOuEpOuUle2KuCArIOqwgOyXtDwvdGV4dD4KICA8dGV4dCB4PSI5NjAiIHk9IjIyNSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgY2xhc3M9InRpdGxlIj7tj6zrj4Tri7nCt+yXv+uLuSDqsoDstpw8L3RleHQ+CiAgPHRleHQgeD0iOTYwIiB5PSIyNjAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGNsYXNzPSJzbWFsbCI+T+ydtOuptCDtmZjsm5Dri7nsnbQg7J6I64uk6rOgIOuzuOuLpC48L3RleHQ+CgogIDxyZWN0IHg9IjgwIiB5PSIzOTAiIHdpZHRoPSIzMzAiIGhlaWdodD0iMTUwIiByeD0iMTgiIGNsYXNzPSJzb2Z0Ii8+CiAgPHRleHQgeD0iMjQ1IiB5PSI0MzIiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGNsYXNzPSJsYWJlbCI+QzwvdGV4dD4KICA8dGV4dCB4PSIyNDUiIHk9IjQ3MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgY2xhc3M9InNtYWxsIj7rsqDrhKTrlJXtirggWDwvdGV4dD4KICA8dGV4dCB4PSIyNDUiIHk9IjUwNSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgY2xhc3M9InRpdGxlIj7soJXsg4Eg7ZiI64u57J24IOyCrOuejOydmCDsmKTspIw8L3RleHQ+CgogIDxyZWN0IHg9IjQ3NSIgeT0iMzkwIiB3aWR0aD0iMzMwIiBoZWlnaHQ9IjE1MCIgcng9IjE4IiBjbGFzcz0iZ3JlZW4iLz4KICA8dGV4dCB4PSI2NDAiIHk9IjQzMiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgY2xhc3M9ImxhYmVsIj5FPC90ZXh0PgogIDx0ZXh0IHg9IjY0MCIgeT0iNDcwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBjbGFzcz0ic21hbGwiPuyVhOydtOyYpOuUmCBYICsg67Kg64Sk65SV7Yq4IE88L3RleHQ+CiAgPHRleHQgeD0iNjQwIiB5PSI1MDUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGNsYXNzPSJ0aXRsZSI+64u564eo67ORIO2ZmOyekOydmCDsmKTspIw8L3RleHQ+CgogIDxyZWN0IHg9Ijg3MCIgeT0iMzkwIiB3aWR0aD0iMzMwIiBoZWlnaHQ9IjE1MCIgcng9IjE4IiBjbGFzcz0iYW1iZXIiLz4KICA8dGV4dCB4PSIxMDM1IiB5PSI0MzIiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGNsYXNzPSJsYWJlbCI+RjwvdGV4dD4KICA8dGV4dCB4PSIxMDM1IiB5PSI0NzAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGNsYXNzPSJzbWFsbCI+7JWE7J207Jik65SYIE8gKyDrsqDrhKTrlJXtirggTzwvdGV4dD4KICA8dGV4dCB4PSIxMDM1IiB5PSI1MDUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGNsYXNzPSJ0aXRsZSI+64W566eQICsg7IaM7ZmU7KCcIOyaqeyVoTwvdGV4dD4KCiAgPHBhdGggZD0iTTMyMCAyOTAgQzMwMCAzNDAsMjcwIDM2MCwyNDUgMzkwIiBjbGFzcz0iYmx1ZUxpbmUiLz4KICA8cGF0aCBkPSJNOTYwIDI5MCBDODUwIDM0NSw3MzAgMzYwLDY0MCAzOTAiIGNsYXNzPSJyZWRMaW5lIi8+CiAgPHBhdGggZD0iTTMyMCAyOTAgQzU0MCAzNDUsODQwIDM1MCwxMDM1IDM5MCIgY2xhc3M9ImxpbmUiLz4KICA8cGF0aCBkPSJNOTYwIDI5MCBDMTAwNSAzMzAsMTAyNSAzNjAsMTAzNSAzOTAiIGNsYXNzPSJyZWRMaW5lIi8+CgogIDxyZWN0IHg9IjE1MCIgeT0iNjQwIiB3aWR0aD0iOTgwIiBoZWlnaHQ9IjEyMCIgcng9IjIyIiBjbGFzcz0icHVycGxlIi8+CiAgPHRleHQgeD0iNjQwIiB5PSI2ODIiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGNsYXNzPSJsYWJlbCI+7IiY7JeFIOykkSDqsJXsobA8L3RleHQ+CiAgPHRleHQgeD0iNjQwIiB5PSI3MjAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGNsYXNzPSJzbWFsbCI+7IaM7ZmU6rCAIOydvOyWtOuCrOuLpOuKlCDrp5DsnYAg64W566eQ7J20IOyZhOyghO2eiCDsgqzrnbzsoYzri6TripQg65y77J20IOyVhOuLiOuLpC48L3RleHQ+CiAgPHRleHQgeD0iNjQwIiB5PSI3NTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGNsYXNzPSJzbWFsbCI+6re4656Y7IScIEbripQg64W566eQ64+EIOuCqOqzoCwg7Je/64u564+EIOyDneqyqCDrkZAg67CY7J2R7J20IOuqqOuRkCBP6rCAIOuQoCDsiJgg7J6I64ukLjwvdGV4dD4KICA8L3N2Zz4="
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+node_modules/
+dist/
+vite-cache/
+vite-cache-local/
+recovery/
+
+.DS_Store
+Thumbs.db
+
+*.log
+npm-debug.log*
+
+data/app-state.before-*.json
+data/app-state.empty-before-recovery.json
+data/app-state.previous.json
+data/recovered-from-edge.json
